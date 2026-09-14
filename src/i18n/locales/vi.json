@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "An toàn gia đình với AI cục bộ và mã hóa đầy đủ" },
+  "role": { "parent": "Phụ huynh", "child": "Trẻ em", "vehicle": "Xe" },
+  "nav": { "home": "Trang chủ", "map": "Bản đồ", "zones": "Vùng", "report": "Báo cáo", "settings": "Cài đặt" },
+  "status": { "safe": "An toàn", "low": "Thấp", "medium": "Trung bình", "high": "Cao", "critical": "Nghiêm trọng", "connected": "Đã kết nối", "disconnected": "Ngoại tuyến" },
+  "actions": { "sos": "SOS", "checkIn": "Xác nhận", "call": "Gọi", "stop": "Dừng", "save": "Lưu", "cancel": "Hủy" },
+  "alerts": { "zoneExit": "Rời vùng an toàn", "heartbeatLost": "Mất kết nối", "antitheft": "Xe di chuyển", "panicWord": "Từ khẩn cấp" },
+  "settings": {
+    "general": "Chung", "language": "Ngôn ngữ", "theme": "Chủ đề",
+    "notifications": { "local": "Thông báo cục bộ", "sound": "Âm thanh", "vibration": "Rung" },
+    "safety": "An toàn", "deadmanMinutes": "Hẹn giờ (phút)", "panicWord": "Từ khẩn cấp",
+    "privacy": "Quyền riêng tư", "privacy.body": "Mọi dữ liệu được mã hóa đầu-cuối."
+  },
+  "onboarding": {
+    "s1_title": "Riêng tư tuyệt đối", "s1_body": "Mỗi vị trí được mã hóa trên thiết bị.",
+    "s2_title": "AI cục bộ", "s2_body": "Phát hiện tuyến đường bất thường, ngã, chuyển động đáng ngờ.",
+    "s3_title": "Kết nối trực tiếp", "s3_body": "Thời gian thực giữa điện thoại của bạn và con bạn.",
+    "next": "Tiếp theo", "start": "Bắt đầu"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Siguranță familială cu IA locală și criptare completă" },
+  "role": { "parent": "Părinte", "child": "Copil", "vehicle": "Vehicul" },
+  "nav": { "home": "Acasă", "map": "Hartă", "zones": "Zone", "report": "Raport", "settings": "Setări" },
+  "status": { "safe": "Sigur", "low": "Scăzut", "medium": "Mediu", "high": "Ridicat", "critical": "Critic", "connected": "Conectat", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Confirmă", "call": "Sună", "stop": "Stop", "save": "Salvează", "cancel": "Anulează" },
+  "alerts": { "zoneExit": "A părăsit zona sigură", "heartbeatLost": "Conexiune pierdută", "antitheft": "Vehiculul s-a mișcat", "panicWord": "Cuvânt de panică" },
+  "settings": {
+    "general": "General", "language": "Limbă", "theme": "Temă",
+    "notifications": { "local": "Notificări locale", "sound": "Sunet", "vibration": "Vibrație" },
+    "safety": "Siguranță", "deadmanMinutes": "Cronometru (min)", "panicWord": "Cuvânt de panică",
+    "privacy": "Confidențialitate", "privacy.body": "Toate datele sunt criptate end-to-end."
+  },
+  "onboarding": {
+    "s1_title": "Confidențialitate absolută", "s1_body": "Fiecare locație este criptată pe dispozitiv.",
+    "s2_title": "IA locală", "s2_body": "Detectează rute neobișnuite, căderi, mișcări suspecte.",
+    "s3_title": "Conexiune directă", "s3_body": "Timp real între telefoanele dvs.",
+    "next": "Următor", "start": "Începe"
+  }
+}

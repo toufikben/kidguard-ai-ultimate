@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "הגנה משפחתית עם בינה מלאכותית מקומית והצפנה מלאה" },
+  "role": { "parent": "הורה", "child": "ילד", "vehicle": "רכב" },
+  "nav": { "home": "בית", "map": "מפה", "zones": "אזורים", "report": "דוח", "settings": "הגדרות" },
+  "status": { "safe": "בטוח", "low": "נמוך", "medium": "בינוני", "high": "גבוה", "critical": "קריטי", "connected": "מחובר", "disconnected": "לא מקוון" },
+  "actions": { "sos": "SOS", "checkIn": "אישור", "call": "התקשר", "stop": "עצור", "save": "שמור", "cancel": "ביטול" },
+  "alerts": { "zoneExit": "יצא מהאזור הבטוח", "heartbeatLost": "החיבור אבד", "antitheft": "רכב זז", "panicWord": "מילת מצוקה" },
+  "settings": {
+    "general": "כללי", "language": "שפה", "theme": "ערכת נושא",
+    "notifications": { "local": "התראות מקומיות", "sound": "צליל", "vibration": "רטט" },
+    "safety": "בטיחות", "deadmanMinutes": "טיימר (דקות)", "panicWord": "מילת מצוקה",
+    "privacy": "פרטיות", "privacy.body": "כל הנתונים מוצפנים מקצה לקצה."
+  },
+  "onboarding": {
+    "s1_title": "פרטיות מוחלטת", "s1_body": "כל מיקום מוצפן במכשיר.",
+    "s2_title": "בינה מקומית", "s2_body": "מזהה מסלולים חריגים, נפילות ותנועה חשודה.",
+    "s3_title": "חיבור ישיר", "s3_body": "זמן אמת בין הטלפון שלך לשל ילדך.",
+    "next": "הבא", "start": "התחל"
+  }
+}

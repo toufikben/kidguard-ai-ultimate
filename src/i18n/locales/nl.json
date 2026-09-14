@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Gezinsveiligheid met lokale AI en volledige versleuteling" },
+  "role": { "parent": "Ouder", "child": "Kind", "vehicle": "Voertuig" },
+  "nav": { "home": "Start", "map": "Kaart", "zones": "Zones", "report": "Rapport", "settings": "Instellingen" },
+  "status": { "safe": "Veilig", "low": "Laag", "medium": "Gemiddeld", "high": "Hoog", "critical": "Kritiek", "connected": "Verbonden", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Bevestigen", "call": "Bellen", "stop": "Stop", "save": "Opslaan", "cancel": "Annuleren" },
+  "alerts": { "zoneExit": "Veilige zone verlaten", "heartbeatLost": "Verbinding verbroken", "antitheft": "Voertuig bewogen", "panicWord": "Paniekwoord" },
+  "settings": {
+    "general": "Algemeen", "language": "Taal", "theme": "Thema",
+    "notifications": { "local": "Lokale meldingen", "sound": "Geluid", "vibration": "Trilling" },
+    "safety": "Veiligheid", "deadmanMinutes": "Timer (minuten)", "panicWord": "Paniekwoord",
+    "privacy": "Privacy", "privacy.body": "Alle gegevens zijn end-to-end versleuteld."
+  },
+  "onboarding": {
+    "s1_title": "Absolute privacy", "s1_body": "Elke locatie wordt op het apparaat versleuteld.",
+    "s2_title": "Lokale AI", "s2_body": "Detecteert ongewone routes, vallen, verdachte bewegingen.",
+    "s3_title": "Directe verbinding", "s3_body": "Realtime tussen uw telefoon en die van uw kind.",
+    "next": "Volgende", "start": "Beginnen"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "स्थानीय AI और पूर्ण एन्क्रिप्शन के साथ पारिवारिक सुरक्षा" },
+  "role": { "parent": "माता-पिता", "child": "बच्चा", "vehicle": "वाहन" },
+  "nav": { "home": "होम", "map": "नक्शा", "zones": "ज़ोन", "report": "रिपोर्ट", "settings": "सेटिंग्स" },
+  "status": { "safe": "सुरक्षित", "low": "कम", "medium": "मध्यम", "high": "उच्च", "critical": "गंभीर", "connected": "जुड़ा", "disconnected": "ऑफलाइन" },
+  "actions": { "sos": "SOS", "checkIn": "पुष्टि", "call": "कॉल", "stop": "रोकें", "save": "सहेजें", "cancel": "रद्द" },
+  "alerts": { "zoneExit": "सुरक्षित क्षेत्र से बाहर", "heartbeatLost": "कनेक्शन टूटा", "antitheft": "वाहन हिला", "panicWord": "आपात शब्द" },
+  "settings": {
+    "general": "सामान्य", "language": "भाषा", "theme": "थीम",
+    "notifications": { "local": "स्थानीय सूचनाएं", "sound": "ध्वनि", "vibration": "कंपन" },
+    "safety": "सुरक्षा", "deadmanMinutes": "टाइमर (मिनट)", "panicWord": "आपात शब्द",
+    "privacy": "गोपनीयता", "privacy.body": "सभी डेटा एंड-टू-एंड एन्क्रिप्टेड है।"
+  },
+  "onboarding": {
+    "s1_title": "पूर्ण गोपनीयता", "s1_body": "हर स्थान डिवाइस पर एन्क्रिप्ट होता है।",
+    "s2_title": "स्थानीय AI", "s2_body": "असामान्य मार्ग, गिरना, संदिग्ध गति पकड़ता है।",
+    "s3_title": "सीधा कनेक्शन", "s3_body": "आपके और बच्चे के फ़ोन के बीच रीयल-टाइम।",
+    "next": "आगे", "start": "शुरू करें"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Familiensicherheit mit lokaler KI und vollständiger Verschlüsselung" },
+  "role": { "parent": "Elternteil", "child": "Kind", "vehicle": "Fahrzeug" },
+  "nav": { "home": "Start", "map": "Karte", "zones": "Zonen", "report": "Bericht", "settings": "Einstellungen" },
+  "status": { "safe": "Sicher", "low": "Niedrig", "medium": "Mittel", "high": "Hoch", "critical": "Kritisch", "connected": "Verbunden", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Bestätigen", "call": "Anrufen", "stop": "Stopp", "save": "Speichern", "cancel": "Abbrechen" },
+  "alerts": { "zoneExit": "Sichere Zone verlassen", "heartbeatLost": "Verbindung verloren", "antitheft": "Fahrzeug bewegt", "panicWord": "Notfallwort" },
+  "settings": {
+    "general": "Allgemein", "language": "Sprache", "theme": "Design",
+    "notifications": { "local": "Lokale Benachrichtigungen", "sound": "Ton", "vibration": "Vibration" },
+    "safety": "Sicherheit", "deadmanMinutes": "Timer (Minuten)", "panicWord": "Notfallwort",
+    "privacy": "Datenschutz", "privacy.body": "Alle Daten sind Ende-zu-Ende verschlüsselt."
+  },
+  "onboarding": {
+    "s1_title": "Absolute Privatsphäre", "s1_body": "Jeder Standort wird auf dem Gerät verschlüsselt.",
+    "s2_title": "Lokale KI", "s2_body": "Erkennt ungewöhnliche Routen, Stürze und verdächtige Bewegungen.",
+    "s3_title": "Direkte Verbindung", "s3_body": "Echtzeit zwischen Ihrem und dem Telefon Ihres Kindes.",
+    "next": "Weiter", "start": "Loslegen"
+  }
+}

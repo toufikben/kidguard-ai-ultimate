@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Usalama wa familia na AI ya ndani na usimbaji kamili" },
+  "role": { "parent": "Mzazi", "child": "Mtoto", "vehicle": "Gari" },
+  "nav": { "home": "Nyumbani", "map": "Ramani", "zones": "Kanda", "report": "Ripoti", "settings": "Mipangilio" },
+  "status": { "safe": "Salama", "low": "Chini", "medium": "Kati", "high": "Juu", "critical": "Hatari", "connected": "Imeunganishwa", "disconnected": "Nje ya mtandao" },
+  "actions": { "sos": "SOS", "checkIn": "Thibitisha", "call": "Piga", "stop": "Acha", "save": "Hifadhi", "cancel": "Ghairi" },
+  "alerts": { "zoneExit": "Alitoka eneo salama", "heartbeatLost": "Mawasiliano yamekatika", "antitheft": "Gari limesogea", "panicWord": "Neno la hofu" },
+  "settings": {
+    "general": "Jumla", "language": "Lugha", "theme": "Mandhari",
+    "notifications": { "local": "Arifa za ndani", "sound": "Sauti", "vibration": "Mtikisiko" },
+    "safety": "Usalama", "deadmanMinutes": "Kipima muda (dakika)", "panicWord": "Neno la hofu",
+    "privacy": "Faragha", "privacy.body": "Data yote imesimbwa kutoka mwanzo hadi mwisho."
+  },
+  "onboarding": {
+    "s1_title": "Faragha kamili", "s1_body": "Kila eneo linasimbwa kwenye kifaa.",
+    "s2_title": "AI ya ndani", "s2_body": "Hugundua njia zisizo za kawaida, kuanguka, mwendo wa kutiliwa shaka.",
+    "s3_title": "Muunganisho wa moja kwa moja", "s3_body": "Wakati halisi kati ya simu yako na ya mtoto wako.",
+    "next": "Ifuatayo", "start": "Anza"
+  }
+}

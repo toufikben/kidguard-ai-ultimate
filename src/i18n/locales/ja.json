@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "ローカルAIと完全暗号化による家族の安全" },
+  "role": { "parent": "保護者", "child": "子供", "vehicle": "車両" },
+  "nav": { "home": "ホーム", "map": "地図", "zones": "ゾーン", "report": "レポート", "settings": "設定" },
+  "status": { "safe": "安全", "low": "低", "medium": "中", "high": "高", "critical": "重大", "connected": "接続中", "disconnected": "オフライン" },
+  "actions": { "sos": "SOS", "checkIn": "確認", "call": "電話", "stop": "停止", "save": "保存", "cancel": "キャンセル" },
+  "alerts": { "zoneExit": "安全エリアから退出", "heartbeatLost": "接続が切れました", "antitheft": "車両が移動", "panicWord": "緊急キーワード" },
+  "settings": {
+    "general": "一般", "language": "言語", "theme": "テーマ",
+    "notifications": { "local": "ローカル通知", "sound": "音", "vibration": "振動" },
+    "safety": "安全", "deadmanMinutes": "タイマー(分)", "panicWord": "緊急キーワード",
+    "privacy": "プライバシー", "privacy.body": "すべてのデータはエンドツーエンド暗号化されています。"
+  },
+  "onboarding": {
+    "s1_title": "絶対的なプライバシー", "s1_body": "すべての位置情報はデバイス上で暗号化されます。",
+    "s2_title": "ローカルAI", "s2_body": "異常なルート、転倒、不審な動きを検出します。",
+    "s3_title": "直接接続", "s3_body": "あなたとお子様のスマホ間でリアルタイム。",
+    "next": "次へ", "start": "開始"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Bezpieczeństwo rodziny z lokalną AI i pełnym szyfrowaniem" },
+  "role": { "parent": "Rodzic", "child": "Dziecko", "vehicle": "Pojazd" },
+  "nav": { "home": "Start", "map": "Mapa", "zones": "Strefy", "report": "Raport", "settings": "Ustawienia" },
+  "status": { "safe": "Bezpieczny", "low": "Niski", "medium": "Średni", "high": "Wysoki", "critical": "Krytyczny", "connected": "Połączony", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Potwierdź", "call": "Zadzwoń", "stop": "Stop", "save": "Zapisz", "cancel": "Anuluj" },
+  "alerts": { "zoneExit": "Wyjście ze strefy", "heartbeatLost": "Utracono połączenie", "antitheft": "Pojazd się ruszył", "panicWord": "Słowo paniki" },
+  "settings": {
+    "general": "Ogólne", "language": "Język", "theme": "Motyw",
+    "notifications": { "local": "Powiadomienia lokalne", "sound": "Dźwięk", "vibration": "Wibracja" },
+    "safety": "Bezpieczeństwo", "deadmanMinutes": "Timer (minuty)", "panicWord": "Słowo paniki",
+    "privacy": "Prywatność", "privacy.body": "Wszystkie dane są szyfrowane end-to-end."
+  },
+  "onboarding": {
+    "s1_title": "Pełna prywatność", "s1_body": "Każda lokalizacja jest szyfrowana na urządzeniu.",
+    "s2_title": "Lokalna AI", "s2_body": "Wykrywa nietypowe trasy, upadki, podejrzane ruchy.",
+    "s3_title": "Bezpośrednie połączenie", "s3_body": "Czas rzeczywisty między Twoim a telefonem dziecka.",
+    "next": "Dalej", "start": "Zacznij"
+  }
+}

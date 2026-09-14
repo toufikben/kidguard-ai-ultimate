@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Сімейна безпека з локальним ШІ та повним шифруванням" },
+  "role": { "parent": "Батько", "child": "Дитина", "vehicle": "Транспорт" },
+  "nav": { "home": "Головна", "map": "Карта", "zones": "Зони", "report": "Звіт", "settings": "Налаштування" },
+  "status": { "safe": "Безпечно", "low": "Низький", "medium": "Середній", "high": "Високий", "critical": "Критичний", "connected": "Підключено", "disconnected": "Офлайн" },
+  "actions": { "sos": "SOS", "checkIn": "Підтвердити", "call": "Зателефонувати", "stop": "Стоп", "save": "Зберегти", "cancel": "Скасувати" },
+  "alerts": { "zoneExit": "Вихід із зони", "heartbeatLost": "Зв'язок втрачено", "antitheft": "Транспорт рухається", "panicWord": "Слово тривоги" },
+  "settings": {
+    "general": "Загальні", "language": "Мова", "theme": "Тема",
+    "notifications": { "local": "Локальні сповіщення", "sound": "Звук", "vibration": "Вібрація" },
+    "safety": "Безпека", "deadmanMinutes": "Таймер (хв)", "panicWord": "Слово тривоги",
+    "privacy": "Приватність", "privacy.body": "Усі дані зашифровані end-to-end."
+  },
+  "onboarding": {
+    "s1_title": "Повна приватність", "s1_body": "Кожна локація шифрується на пристрої.",
+    "s2_title": "Локальний ШІ", "s2_body": "Виявляє незвичні маршрути, падіння, підозрілі рухи.",
+    "s3_title": "Пряме з'єднання", "s3_body": "У реальному часі між вашими телефонами.",
+    "next": "Далі", "start": "Почати"
+  }
+}

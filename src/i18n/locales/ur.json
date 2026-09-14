@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "مقامی ذہانت اور مکمل خفیہ کاری کے ساتھ خاندانی تحفظ" },
+  "role": { "parent": "والدین", "child": "بچہ", "vehicle": "گاڑی" },
+  "nav": { "home": "ہوم", "map": "نقشہ", "zones": "زونز", "report": "رپورٹ", "settings": "ترتیبات" },
+  "status": { "safe": "محفوظ", "low": "کم", "medium": "درمیانہ", "high": "زیادہ", "critical": "نازک", "connected": "منسلک", "disconnected": "آف لائن" },
+  "actions": { "sos": "ایس او ایس", "checkIn": "تصدیق", "call": "کال", "stop": "رکیں", "save": "محفوظ", "cancel": "منسوخ" },
+  "alerts": { "zoneExit": "محفوظ زون سے باہر", "heartbeatLost": "رابطہ منقطع", "antitheft": "گاڑی حرکت میں", "panicWord": "پریشانی کا لفظ" },
+  "settings": {
+    "general": "عمومی", "language": "زبان", "theme": "تھیم",
+    "notifications": { "local": "مقامی اطلاعات", "sound": "آواز", "vibration": "وائبریشن" },
+    "safety": "حفاظت", "deadmanMinutes": "ٹائمر (منٹ)", "panicWord": "پریشانی کا لفظ",
+    "privacy": "رازداری", "privacy.body": "تمام ڈیٹا اینڈ ٹو اینڈ انکرپٹڈ ہے۔"
+  },
+  "onboarding": {
+    "s1_title": "مکمل رازداری", "s1_body": "ہر مقام ڈیوائس پر انکرپٹ ہوتا ہے۔",
+    "s2_title": "مقامی AI", "s2_body": "غیر معمولی راستے، گرنے، مشکوک حرکت کا پتہ لگاتا ہے۔",
+    "s3_title": "براہ راست رابطہ", "s3_body": "آپ اور آپ کے بچے کے فون کے درمیان فوری۔",
+    "next": "اگلا", "start": "شروع کریں"
+  }
+}

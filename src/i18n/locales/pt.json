@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Segurança familiar com IA local e criptografia completa" },
+  "role": { "parent": "Pai/Mãe", "child": "Criança", "vehicle": "Veículo" },
+  "nav": { "home": "Início", "map": "Mapa", "zones": "Zonas", "report": "Relatório", "settings": "Configurações" },
+  "status": { "safe": "Seguro", "low": "Baixo", "medium": "Médio", "high": "Alto", "critical": "Crítico", "connected": "Conectado", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Confirmar", "call": "Ligar", "stop": "Parar", "save": "Salvar", "cancel": "Cancelar" },
+  "alerts": { "zoneExit": "Saiu da zona segura", "heartbeatLost": "Conexão perdida", "antitheft": "Veículo se moveu", "panicWord": "Palavra de pânico" },
+  "settings": {
+    "general": "Geral", "language": "Idioma", "theme": "Tema",
+    "notifications": { "local": "Notificações locais", "sound": "Som", "vibration": "Vibração" },
+    "safety": "Segurança", "deadmanMinutes": "Temporizador (min)", "panicWord": "Palavra de pânico",
+    "privacy": "Privacidade", "privacy.body": "Todos os dados são criptografados ponta a ponta."
+  },
+  "onboarding": {
+    "s1_title": "Privacidade absoluta", "s1_body": "Cada localização é criptografada no dispositivo.",
+    "s2_title": "IA local", "s2_body": "Detecta rotas incomuns, quedas, movimentos suspeitos.",
+    "s3_title": "Conexão direta", "s3_body": "Tempo real entre seu telefone e o do seu filho.",
+    "next": "Próximo", "start": "Começar"
+  }
+}

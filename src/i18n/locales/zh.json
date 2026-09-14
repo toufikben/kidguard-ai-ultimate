@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "本地AI与完整加密的家庭安全" },
+  "role": { "parent": "家长", "child": "孩子", "vehicle": "车辆" },
+  "nav": { "home": "首页", "map": "地图", "zones": "区域", "report": "报告", "settings": "设置" },
+  "status": { "safe": "安全", "low": "低", "medium": "中", "high": "高", "critical": "紧急", "connected": "已连接", "disconnected": "离线" },
+  "actions": { "sos": "求救", "checkIn": "确认", "call": "呼叫", "stop": "停止", "save": "保存", "cancel": "取消" },
+  "alerts": { "zoneExit": "离开安全区域", "heartbeatLost": "连接中断", "antitheft": "车辆移动", "panicWord": "紧急词" },
+  "settings": {
+    "general": "通用", "language": "语言", "theme": "主题",
+    "notifications": { "local": "本地通知", "sound": "声音", "vibration": "振动" },
+    "safety": "安全", "deadmanMinutes": "计时器(分钟)", "panicWord": "紧急词",
+    "privacy": "隐私", "privacy.body": "所有数据均端到端加密。"
+  },
+  "onboarding": {
+    "s1_title": "绝对隐私", "s1_body": "每个位置都在设备上加密。",
+    "s2_title": "本地AI", "s2_body": "检测异常路线、跌倒、可疑移动。",
+    "s3_title": "直接连接", "s3_body": "您与孩子手机之间实时通信。",
+    "next": "下一步", "start": "开始"
+  }
+}

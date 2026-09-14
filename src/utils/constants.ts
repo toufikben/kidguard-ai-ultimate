@@ -26,12 +26,52 @@ export const DEADMAN_DEFAULT_MINUTES = 60;
 
 export const PANIC_WORDS = ['نجدة', 'ساعدني', 'help', 'mayday'];
 
-export const SUPPORTED_LANGUAGES = [
-  { code: 'ar', label: 'العربية', rtl: true },
-  { code: 'en', label: 'English', rtl: false },
-  { code: 'fr', label: 'Français', rtl: false },
-  { code: 'es', label: 'Español', rtl: false },
+export interface LanguageMeta {
+  code: string;
+  label: string;       // native name
+  english: string;     // English name
+  rtl: boolean;
+  flag: string;        // emoji flag
+}
+
+export const SUPPORTED_LANGUAGES: LanguageMeta[] = [
+  // ══ RTL — Right-to-Left ══
+  { code: 'ar', label: 'العربية',      english: 'Arabic',      rtl: true,  flag: '🇩🇿' },
+  { code: 'ur', label: 'اردو',          english: 'Urdu',        rtl: true,  flag: '🇵🇰' },
+  { code: 'fa', label: 'فارسی',         english: 'Persian',     rtl: true,  flag: '🇮🇷' },
+  { code: 'he', label: 'עברית',         english: 'Hebrew',      rtl: true,  flag: '🇮🇱' },
+
+  // ══ LTR — Left-to-Right ══
+  { code: 'en', label: 'English',       english: 'English',     rtl: false, flag: '🇬🇧' },
+  { code: 'fr', label: 'Français',      english: 'French',      rtl: false, flag: '🇫🇷' },
+  { code: 'es', label: 'Español',       english: 'Spanish',     rtl: false, flag: '🇪🇸' },
+  { code: 'de', label: 'Deutsch',       english: 'German',      rtl: false, flag: '🇩🇪' },
+  { code: 'it', label: 'Italiano',      english: 'Italian',     rtl: false, flag: '🇮🇹' },
+  { code: 'pt', label: 'Português',     english: 'Portuguese',  rtl: false, flag: '🇵🇹' },
+  { code: 'nl', label: 'Nederlands',    english: 'Dutch',       rtl: false, flag: '🇳🇱' },
+  { code: 'sv', label: 'Svenska',       english: 'Swedish',     rtl: false, flag: '🇸🇪' },
+  { code: 'pl', label: 'Polski',        english: 'Polish',      rtl: false, flag: '🇵🇱' },
+  { code: 'el', label: 'Ελληνικά',      english: 'Greek',       rtl: false, flag: '🇬🇷' },
+  { code: 'ru', label: 'Русский',       english: 'Russian',     rtl: false, flag: '🇷🇺' },
+  { code: 'uk', label: 'Українська',    english: 'Ukrainian',   rtl: false, flag: '🇺🇦' },
+  { code: 'tr', label: 'Türkçe',        english: 'Turkish',     rtl: false, flag: '🇹🇷' },
+  { code: 'ro', label: 'Română',        english: 'Romanian',    rtl: false, flag: '🇷🇴' },
+  { code: 'zh', label: '中文',           english: 'Chinese',     rtl: false, flag: '🇨🇳' },
+  { code: 'ja', label: '日本語',         english: 'Japanese',    rtl: false, flag: '🇯🇵' },
+  { code: 'ko', label: '한국어',         english: 'Korean',      rtl: false, flag: '🇰🇷' },
+  { code: 'hi', label: 'हिन्दी',          english: 'Hindi',       rtl: false, flag: '🇮🇳' },
+  { code: 'bn', label: 'বাংলা',         english: 'Bengali',     rtl: false, flag: '🇧🇩' },
+  { code: 'ta', label: 'தமிழ்',          english: 'Tamil',       rtl: false, flag: '🇱🇰' },
+  { code: 'id', label: 'Bahasa Indonesia', english: 'Indonesian', rtl: false, flag: '🇮🇩' },
+  { code: 'ms', label: 'Bahasa Melayu', english: 'Malay',       rtl: false, flag: '🇲🇾' },
+  { code: 'vi', label: 'Tiếng Việt',    english: 'Vietnamese',  rtl: false, flag: '🇻🇳' },
+  { code: 'th', label: 'ไทย',           english: 'Thai',        rtl: false, flag: '🇹🇭' },
+  { code: 'sw', label: 'Kiswahili',     english: 'Swahili',     rtl: false, flag: '🇰🇪' },
 ];
+
+export function getLanguageMeta(code: string): LanguageMeta | undefined {
+  return SUPPORTED_LANGUAGES.find((l) => l.code === code);
+}
 
 export const NOTIFICATION_CHANNELS = {
   heartbeat: 'heartbeat',

@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Yerel yapay zekâ ve tam şifreleme ile aile güvenliği" },
+  "role": { "parent": "Ebeveyn", "child": "Çocuk", "vehicle": "Araç" },
+  "nav": { "home": "Ana Sayfa", "map": "Harita", "zones": "Bölgeler", "report": "Rapor", "settings": "Ayarlar" },
+  "status": { "safe": "Güvenli", "low": "Düşük", "medium": "Orta", "high": "Yüksek", "critical": "Kritik", "connected": "Bağlı", "disconnected": "Çevrimdışı" },
+  "actions": { "sos": "SOS", "checkIn": "Onayla", "call": "Ara", "stop": "Durdur", "save": "Kaydet", "cancel": "İptal" },
+  "alerts": { "zoneExit": "Güvenli bölgeden çıktı", "heartbeatLost": "Bağlantı koptu", "antitheft": "Araç hareket etti", "panicWord": "Panik kelimesi" },
+  "settings": {
+    "general": "Genel", "language": "Dil", "theme": "Tema",
+    "notifications": { "local": "Yerel bildirimler", "sound": "Ses", "vibration": "Titreşim" },
+    "safety": "Güvenlik", "deadmanMinutes": "Zamanlayıcı (dk)", "panicWord": "Panik kelimesi",
+    "privacy": "Gizlilik", "privacy.body": "Tüm veriler uçtan uca şifrelidir."
+  },
+  "onboarding": {
+    "s1_title": "Mutlak gizlilik", "s1_body": "Her konum cihazda şifrelenir.",
+    "s2_title": "Yerel yapay zekâ", "s2_body": "Olağandışı rotaları, düşmeleri, şüpheli hareketleri algılar.",
+    "s3_title": "Doğrudan bağlantı", "s3_body": "Sizin ve çocuğunuzun telefonu arasında gerçek zamanlı.",
+    "next": "İleri", "start": "Başla"
+  }
+}

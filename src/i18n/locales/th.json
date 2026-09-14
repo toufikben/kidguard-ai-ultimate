@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "ความปลอดภัยในครอบครัวด้วย AI ในเครื่องและการเข้ารหัสเต็มรูปแบบ" },
+  "role": { "parent": "ผู้ปกครอง", "child": "เด็ก", "vehicle": "ยานพาหนะ" },
+  "nav": { "home": "หน้าแรก", "map": "แผนที่", "zones": "โซน", "report": "รายงาน", "settings": "ตั้งค่า" },
+  "status": { "safe": "ปลอดภัย", "low": "ต่ำ", "medium": "ปานกลาง", "high": "สูง", "critical": "วิกฤต", "connected": "เชื่อมต่อ", "disconnected": "ออฟไลน์" },
+  "actions": { "sos": "SOS", "checkIn": "ยืนยัน", "call": "โทร", "stop": "หยุด", "save": "บันทึก", "cancel": "ยกเลิก" },
+  "alerts": { "zoneExit": "ออกจากเขตปลอดภัย", "heartbeatLost": "การเชื่อมต่อขาด", "antitheft": "รถเคลื่อนที่", "panicWord": "คำฉุกเฉิน" },
+  "settings": {
+    "general": "ทั่วไป", "language": "ภาษา", "theme": "ธีม",
+    "notifications": { "local": "การแจ้งเตือนในเครื่อง", "sound": "เสียง", "vibration": "การสั่น" },
+    "safety": "ความปลอดภัย", "deadmanMinutes": "ตัวจับเวลา (นาที)", "panicWord": "คำฉุกเฉิน",
+    "privacy": "ความเป็นส่วนตัว", "privacy.body": "ข้อมูลทั้งหมดถูกเข้ารหัสแบบ end-to-end"
+  },
+  "onboarding": {
+    "s1_title": "ความเป็นส่วนตัวเต็มรูปแบบ", "s1_body": "ทุกตำแหน่งถูกเข้ารหัสบนอุปกรณ์",
+    "s2_title": "AI ในเครื่อง", "s2_body": "ตรวจจับเส้นทางผิดปกติ การล้ม การเคลื่อนไหวที่น่าสงสัย",
+    "s3_title": "การเชื่อมต่อโดยตรง", "s3_body": "เรียลไทม์ระหว่างโทรศัพท์ของคุณและลูก",
+    "next": "ถัดไป", "start": "เริ่ม"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Familjesäkerhet med lokal AI och fullständig kryptering" },
+  "role": { "parent": "Förälder", "child": "Barn", "vehicle": "Fordon" },
+  "nav": { "home": "Hem", "map": "Karta", "zones": "Zoner", "report": "Rapport", "settings": "Inställningar" },
+  "status": { "safe": "Säker", "low": "Låg", "medium": "Medel", "high": "Hög", "critical": "Kritisk", "connected": "Ansluten", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Bekräfta", "call": "Ring", "stop": "Stopp", "save": "Spara", "cancel": "Avbryt" },
+  "alerts": { "zoneExit": "Lämnade säker zon", "heartbeatLost": "Anslutning förlorad", "antitheft": "Fordon rörde sig", "panicWord": "Panikord" },
+  "settings": {
+    "general": "Allmänt", "language": "Språk", "theme": "Tema",
+    "notifications": { "local": "Lokala aviseringar", "sound": "Ljud", "vibration": "Vibration" },
+    "safety": "Säkerhet", "deadmanMinutes": "Timer (minuter)", "panicWord": "Panikord",
+    "privacy": "Integritet", "privacy.body": "All data är end-to-end-krypterad."
+  },
+  "onboarding": {
+    "s1_title": "Absolut integritet", "s1_body": "Varje plats krypteras på enheten.",
+    "s2_title": "Lokal AI", "s2_body": "Upptäcker ovanliga rutter, fall, misstänkta rörelser.",
+    "s3_title": "Direkt anslutning", "s3_body": "Realtid mellan din telefon och ditt barns.",
+    "next": "Nästa", "start": "Kom igång"
+  }
+}

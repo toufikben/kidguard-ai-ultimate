@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Keamanan keluarga dengan AI lokal dan enkripsi penuh" },
+  "role": { "parent": "Orang Tua", "child": "Anak", "vehicle": "Kendaraan" },
+  "nav": { "home": "Beranda", "map": "Peta", "zones": "Zona", "report": "Laporan", "settings": "Pengaturan" },
+  "status": { "safe": "Aman", "low": "Rendah", "medium": "Sedang", "high": "Tinggi", "critical": "Kritis", "connected": "Terhubung", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Konfirmasi", "call": "Telepon", "stop": "Berhenti", "save": "Simpan", "cancel": "Batal" },
+  "alerts": { "zoneExit": "Keluar zona aman", "heartbeatLost": "Koneksi terputus", "antitheft": "Kendaraan bergerak", "panicWord": "Kata panik" },
+  "settings": {
+    "general": "Umum", "language": "Bahasa", "theme": "Tema",
+    "notifications": { "local": "Notifikasi lokal", "sound": "Suara", "vibration": "Getaran" },
+    "safety": "Keamanan", "deadmanMinutes": "Timer (menit)", "panicWord": "Kata panik",
+    "privacy": "Privasi", "privacy.body": "Semua data dienkripsi end-to-end."
+  },
+  "onboarding": {
+    "s1_title": "Privasi absolut", "s1_body": "Setiap lokasi dienkripsi di perangkat.",
+    "s2_title": "AI lokal", "s2_body": "Mendeteksi rute tidak biasa, jatuh, gerakan mencurigakan.",
+    "s3_title": "Koneksi langsung", "s3_body": "Real-time antara ponsel Anda dan anak Anda.",
+    "next": "Berikutnya", "start": "Mulai"
+  }
+}

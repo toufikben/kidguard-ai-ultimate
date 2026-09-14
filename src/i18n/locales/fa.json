@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "حفاظت خانواده با هوش مصنوعی محلی و رمزنگاری کامل" },
+  "role": { "parent": "والد", "child": "کودک", "vehicle": "خودرو" },
+  "nav": { "home": "خانه", "map": "نقشه", "zones": "مناطق", "report": "گزارش", "settings": "تنظیمات" },
+  "status": { "safe": "امن", "low": "کم", "medium": "متوسط", "high": "بالا", "critical": "بحرانی", "connected": "متصل", "disconnected": "آفلاین" },
+  "actions": { "sos": "SOS", "checkIn": "تأیید", "call": "تماس", "stop": "توقف", "save": "ذخیره", "cancel": "لغو" },
+  "alerts": { "zoneExit": "خروج از منطقه امن", "heartbeatLost": "قطع اتصال", "antitheft": "خودرو حرکت کرد", "panicWord": "کلمه اضطراری" },
+  "settings": {
+    "general": "عمومی", "language": "زبان", "theme": "پوسته",
+    "notifications": { "local": "اعلان‌های محلی", "sound": "صدا", "vibration": "لرزش" },
+    "safety": "ایمنی", "deadmanMinutes": "تایمر (دقیقه)", "panicWord": "کلمه اضطراری",
+    "privacy": "حریم خصوصی", "privacy.body": "تمام داده‌ها به صورت سرتاسری رمزنگاری شده‌اند."
+  },
+  "onboarding": {
+    "s1_title": "حریم خصوصی کامل", "s1_body": "هر موقعیت روی دستگاه رمزنگاری می‌شود.",
+    "s2_title": "هوش محلی", "s2_body": "مسیرهای غیرعادی، سقوط و حرکت مشکوک را تشخیص می‌دهد.",
+    "s3_title": "اتصال مستقیم", "s3_body": "لحظه‌ای بین گوشی شما و فرزندتان.",
+    "next": "بعدی", "start": "شروع"
+  }
+}

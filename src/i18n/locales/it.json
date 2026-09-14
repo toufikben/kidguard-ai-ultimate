@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Sicurezza familiare con IA locale e crittografia completa" },
+  "role": { "parent": "Genitore", "child": "Bambino", "vehicle": "Veicolo" },
+  "nav": { "home": "Home", "map": "Mappa", "zones": "Zone", "report": "Rapporto", "settings": "Impostazioni" },
+  "status": { "safe": "Sicuro", "low": "Basso", "medium": "Medio", "high": "Alto", "critical": "Critico", "connected": "Connesso", "disconnected": "Offline" },
+  "actions": { "sos": "SOS", "checkIn": "Conferma", "call": "Chiama", "stop": "Ferma", "save": "Salva", "cancel": "Annulla" },
+  "alerts": { "zoneExit": "Uscita dalla zona sicura", "heartbeatLost": "Connessione persa", "antitheft": "Veicolo in movimento", "panicWord": "Parola di panico" },
+  "settings": {
+    "general": "Generale", "language": "Lingua", "theme": "Tema",
+    "notifications": { "local": "Notifiche locali", "sound": "Suono", "vibration": "Vibrazione" },
+    "safety": "Sicurezza", "deadmanMinutes": "Timer (minuti)", "panicWord": "Parola di panico",
+    "privacy": "Privacy", "privacy.body": "Tutti i dati sono cifrati end-to-end."
+  },
+  "onboarding": {
+    "s1_title": "Privacy assoluta", "s1_body": "Ogni posizione è cifrata sul dispositivo.",
+    "s2_title": "IA locale", "s2_body": "Rileva percorsi insoliti, cadute, movimenti sospetti.",
+    "s3_title": "Connessione diretta", "s3_body": "Tempo reale tra il tuo telefono e quello di tuo figlio.",
+    "next": "Avanti", "start": "Inizia"
+  }
+}

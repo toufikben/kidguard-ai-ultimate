@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Keselamatan keluarga dengan AI tempatan dan penyulitan penuh" },
+  "role": { "parent": "Ibu Bapa", "child": "Anak", "vehicle": "Kenderaan" },
+  "nav": { "home": "Utama", "map": "Peta", "zones": "Zon", "report": "Laporan", "settings": "Tetapan" },
+  "status": { "safe": "Selamat", "low": "Rendah", "medium": "Sederhana", "high": "Tinggi", "critical": "Kritikal", "connected": "Bersambung", "disconnected": "Luar talian" },
+  "actions": { "sos": "SOS", "checkIn": "Sahkan", "call": "Panggil", "stop": "Henti", "save": "Simpan", "cancel": "Batal" },
+  "alerts": { "zoneExit": "Keluar zon selamat", "heartbeatLost": "Sambungan terputus", "antitheft": "Kenderaan bergerak", "panicWord": "Kata panik" },
+  "settings": {
+    "general": "Umum", "language": "Bahasa", "theme": "Tema",
+    "notifications": { "local": "Notifikasi tempatan", "sound": "Bunyi", "vibration": "Getaran" },
+    "safety": "Keselamatan", "deadmanMinutes": "Pemasa (minit)", "panicWord": "Kata panik",
+    "privacy": "Privasi", "privacy.body": "Semua data disulitkan hujung-ke-hujung."
+  },
+  "onboarding": {
+    "s1_title": "Privasi mutlak", "s1_body": "Setiap lokasi disulitkan pada peranti.",
+    "s2_title": "AI tempatan", "s2_body": "Mengesan laluan luar biasa, jatuh, pergerakan mencurigakan.",
+    "s3_title": "Sambungan langsung", "s3_body": "Masa nyata antara telefon anda dan anak anda.",
+    "next": "Seterusnya", "start": "Mula"
+  }
+}

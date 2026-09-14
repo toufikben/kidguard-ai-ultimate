@@ -1,0 +1,20 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "স্থানীয় AI এবং সম্পূর্ণ এনক্রিপশন সহ পারিবারিক সুরক্ষা" },
+  "role": { "parent": "পিতা-মাতা", "child": "সন্তান", "vehicle": "যানবাহন" },
+  "nav": { "home": "হোম", "map": "মানচিত্র", "zones": "অঞ্চল", "report": "রিপোর্ট", "settings": "সেটিংস" },
+  "status": { "safe": "নিরাপদ", "low": "কম", "medium": "মাঝারি", "high": "উচ্চ", "critical": "গুরুতর", "connected": "সংযুক্ত", "disconnected": "অফলাইন" },
+  "actions": { "sos": "SOS", "checkIn": "নিশ্চিত", "call": "কল", "stop": "থামুন", "save": "সংরক্ষণ", "cancel": "বাতিল" },
+  "alerts": { "zoneExit": "নিরাপদ অঞ্চল থেকে বেরিয়ে গেছে", "heartbeatLost": "সংযোগ বিচ্ছিন্ন", "antitheft": "যানবাহন নড়েছে", "panicWord": "আতঙ্কের শব্দ" },
+  "settings": {
+    "general": "সাধারণ", "language": "ভাষা", "theme": "থিম",
+    "notifications": { "local": "স্থানীয় বিজ্ঞপ্তি", "sound": "শব্দ", "vibration": "কম্পন" },
+    "safety": "নিরাপত্তা", "deadmanMinutes": "টাইমার (মিনিট)", "panicWord": "আতঙ্কের শব্দ",
+    "privacy": "গোপনীয়তা", "privacy.body": "সব ডেটা এন্ড-টু-এন্ড এনক্রিপ্টেড।"
+  },
+  "onboarding": {
+    "s1_title": "সম্পূর্ণ গোপনীয়তা", "s1_body": "প্রতিটি অবস্থান ডিভাইসে এনক্রিপ্ট করা হয়।",
+    "s2_title": "স্থানীয় AI", "s2_body": "অস্বাভাবিক পথ, পড়ে যাওয়া, সন্দেহজনক নড়াচড়া সনাক্ত করে।",
+    "s3_title": "সরাসরি সংযোগ", "s3_body": "আপনার এবং সন্তানের ফোনের মধ্যে রিয়েল-টাইম।",
+    "next": "পরবর্তী", "start": "শুরু"
+  }
+}
