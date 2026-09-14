@@ -15,6 +15,8 @@
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
+    "@capacitor-community/background-geolocation": "^1.2.20",
+    "@capacitor-community/bluetooth-le": "^7.0.0",
     "@capacitor/android": "^7.0.0",
     "@capacitor/app": "^7.0.0",
     "@capacitor/core": "^7.0.0",
@@ -27,12 +29,10 @@
     "@capacitor/push-notifications": "^7.0.0",
     "@capacitor/splash-screen": "^7.0.0",
     "@capacitor/status-bar": "^7.0.0",
-    "@capacitor-community/background-geolocation": "^1.2.20",
-    "@capacitor-community/bluetooth-le": "^7.0.0",
     "@supabase/supabase-js": "^2.45.0",
     "i18next": "^23.15.0",
-    "libsodium-wrappers": "^0.7.15",
     "leaflet": "^1.9.4",
+    "libsodium-wrappers": "^0.7.15",
     "lucide-react": "^1.46.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -44,6 +44,7 @@
   "devDependencies": {
     "@capacitor/cli": "^7.0.0",
     "@types/leaflet": "^1.9.12",
+    "@types/libsodium-wrappers": "^0.7.14",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/simple-peer": "^9.11.8",
