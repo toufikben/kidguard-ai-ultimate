@@ -1,0 +1,9 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "حماية أسرية بذكاء محلي وتشفير كامل" },
+  "role": { "parent": "ولي الأمر", "child": "الطفل", "vehicle": "مركبة" },
+  "nav": { "home": "الرئيسية", "map": "الخريطة", "zones": "المناطق الآمنة", "settings": "الإعدادات", "report": "التقرير" },
+  "status": { "safe": "آمن", "low": "خطر منخفض", "medium": "خطر متوسط", "high": "خطر عالٍ", "critical": "خطر حرج" },
+  "actions": { "sos": "استغاثة", "checkIn": "تأكيد", "call": "اتصال", "stop": "إيقاف", "save": "حفظ", "cancel": "إلغاء" },
+  "alerts": { "zoneExit": "خرج من المنطقة الآمنة", "heartbeatLost": "انقطع الاتصال", "antitheft": "تحرك مركبة", "panicWord": "كلمة استغاثة" },
+  "settings": { "language": "اللغة", "theme": "المظهر", "notifications": "الإشعارات", "privacy": "الخصوصية" }
+}

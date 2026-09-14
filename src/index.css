@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+[dir="rtl"] {
+  font-family: 'Cairo', 'Tajawal', system-ui, sans-serif;
+}
+
+[dir="ltr"] {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #475569; }
+
+.glass {
+  background: rgba(17, 24, 39, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card {
+  @apply rounded-2xl bg-surface-card/80 border border-white/5 p-4;
+}
+
+.btn-primary {
+  @apply px-4 py-2.5 rounded-xl bg-primary-600 hover:bg-primary-500
+         text-white font-semibold transition-all active:scale-95;
+}
+
+.btn-danger {
+  @apply px-4 py-2.5 rounded-xl bg-danger-600 hover:bg-danger-500
+         text-white font-semibold transition-all active:scale-95 shadow-danger;
+}
+
+.btn-ghost {
+  @apply px-4 py-2.5 rounded-xl border border-white/10 hover:bg-white/5
+         text-white font-medium transition-all active:scale-95;
+}
+
+.leaflet-container {
+  background: #0B1220;
+  border-radius: 1rem;
+}

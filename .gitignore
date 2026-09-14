@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+android/app/build/
+android/build/
+android/.gradle/
+ios/App/Pods/
+.vscode/
+.idea/
+coverage/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Generated native platforms
+android/
+ios/

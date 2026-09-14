@@ -1,0 +1,9 @@
+{
+  "app": { "name": "KidGuard AI Ultimate", "tagline": "Seguridad familiar con IA local" },
+  "role": { "parent": "Padre", "child": "Niño", "vehicle": "Vehículo" },
+  "nav": { "home": "Inicio", "map": "Mapa", "zones": "Zonas seguras", "settings": "Ajustes", "report": "Informe" },
+  "status": { "safe": "Seguro", "low": "Bajo", "medium": "Medio", "high": "Alto", "critical": "Crítico" },
+  "actions": { "sos": "SOS", "checkIn": "Confirmar", "call": "Llamar", "stop": "Detener", "save": "Guardar", "cancel": "Cancelar" },
+  "alerts": { "zoneExit": "Salió de zona", "heartbeatLost": "Conexión perdida", "antitheft": "Vehículo movido", "panicWord": "Palabra de pánico" },
+  "settings": { "language": "Idioma", "theme": "Tema", "notifications": "Notificaciones", "privacy": "Privacidad" }
+}
