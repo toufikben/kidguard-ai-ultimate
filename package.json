@@ -33,7 +33,7 @@
     "i18next": "^23.15.0",
     "libsodium-wrappers": "^0.7.15",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.450.0",
+    "lucide-react": "^1.46.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.0.0",
