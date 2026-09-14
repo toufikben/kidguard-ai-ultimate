@@ -1,9 +1,29 @@
 {
   "app": { "name": "KidGuard AI Ultimate", "tagline": "Family safety with local AI and full encryption" },
   "role": { "parent": "Parent", "child": "Child", "vehicle": "Vehicle" },
-  "nav": { "home": "Home", "map": "Map", "zones": "Safe Zones", "settings": "Settings", "report": "Report" },
-  "status": { "safe": "Safe", "low": "Low", "medium": "Medium", "high": "High", "critical": "Critical" },
+  "nav": { "home": "Home", "map": "Map", "zones": "Zones", "report": "Report", "settings": "Settings" },
+  "status": { "safe": "Safe", "low": "Low", "medium": "Medium", "high": "High", "critical": "Critical", "connected": "Connected", "disconnected": "Offline" },
   "actions": { "sos": "SOS", "checkIn": "Check-in", "call": "Call", "stop": "Stop", "save": "Save", "cancel": "Cancel" },
   "alerts": { "zoneExit": "Exited safe zone", "heartbeatLost": "Connection lost", "antitheft": "Vehicle moved", "panicWord": "Panic word" },
-  "settings": { "language": "Language", "theme": "Theme", "notifications": "Notifications", "privacy": "Privacy" }
+  "settings": {
+    "general": "General",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": { "local": "Local notifications", "sound": "Sound", "vibration": "Vibration" },
+    "safety": "Safety",
+    "deadmanMinutes": "Dead man timer (min)",
+    "panicWord": "Panic word",
+    "privacy": "Privacy",
+    "privacy.body": "All data is end-to-end encrypted. Supabase never reads your child's location."
+  },
+  "onboarding": {
+    "s1_title": "Absolute Privacy",
+    "s1_body": "Every location is encrypted on-device. Even we cannot read it.",
+    "s2_title": "Local AI",
+    "s2_body": "Detects unusual routes, falls, suspicious movement — without sending any data.",
+    "s3_title": "Direct Connection",
+    "s3_body": "Real-time between your phone and your child's. No middlemen.",
+    "next": "Next",
+    "start": "Get started"
+  }
 }

@@ -1,9 +1,29 @@
 {
   "app": { "name": "KidGuard AI Ultimate", "tagline": "Sécurité familiale avec IA locale" },
   "role": { "parent": "Parent", "child": "Enfant", "vehicle": "Véhicule" },
-  "nav": { "home": "Accueil", "map": "Carte", "zones": "Zones sûres", "settings": "Paramètres", "report": "Rapport" },
-  "status": { "safe": "Sûr", "low": "Faible", "medium": "Moyen", "high": "Élevé", "critical": "Critique" },
+  "nav": { "home": "Accueil", "map": "Carte", "zones": "Zones", "report": "Rapport", "settings": "Réglages" },
+  "status": { "safe": "Sûr", "low": "Faible", "medium": "Moyen", "high": "Élevé", "critical": "Critique", "connected": "Connecté", "disconnected": "Hors ligne" },
   "actions": { "sos": "SOS", "checkIn": "Confirmer", "call": "Appeler", "stop": "Arrêter", "save": "Enregistrer", "cancel": "Annuler" },
   "alerts": { "zoneExit": "Sortie de zone", "heartbeatLost": "Connexion perdue", "antitheft": "Véhicule déplacé", "panicWord": "Mot d'alarme" },
-  "settings": { "language": "Langue", "theme": "Thème", "notifications": "Notifications", "privacy": "Confidentialité" }
+  "settings": {
+    "general": "Général",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": { "local": "Notifications locales", "sound": "Son", "vibration": "Vibration" },
+    "safety": "Sécurité",
+    "deadmanMinutes": "Minuteur (min)",
+    "panicWord": "Mot d'alarme",
+    "privacy": "Confidentialité",
+    "privacy.body": "Tout est chiffré de bout en bout. Supabase ne lit jamais la position."
+  },
+  "onboarding": {
+    "s1_title": "Confidentialité totale",
+    "s1_body": "Chaque position est chiffrée sur l'appareil.",
+    "s2_title": "IA locale",
+    "s2_body": "Détecte les trajets anormaux, les chutes, les mouvements suspects.",
+    "s3_title": "Connexion directe",
+    "s3_body": "Temps réel entre votre téléphone et celui de votre enfant.",
+    "next": "Suivant",
+    "start": "Commencer"
+  }
 }

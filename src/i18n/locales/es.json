@@ -1,9 +1,29 @@
 {
   "app": { "name": "KidGuard AI Ultimate", "tagline": "Seguridad familiar con IA local" },
   "role": { "parent": "Padre", "child": "Niño", "vehicle": "Vehículo" },
-  "nav": { "home": "Inicio", "map": "Mapa", "zones": "Zonas seguras", "settings": "Ajustes", "report": "Informe" },
-  "status": { "safe": "Seguro", "low": "Bajo", "medium": "Medio", "high": "Alto", "critical": "Crítico" },
+  "nav": { "home": "Inicio", "map": "Mapa", "zones": "Zonas", "report": "Informe", "settings": "Ajustes" },
+  "status": { "safe": "Seguro", "low": "Bajo", "medium": "Medio", "high": "Alto", "critical": "Crítico", "connected": "Conectado", "disconnected": "Sin conexión" },
   "actions": { "sos": "SOS", "checkIn": "Confirmar", "call": "Llamar", "stop": "Detener", "save": "Guardar", "cancel": "Cancelar" },
   "alerts": { "zoneExit": "Salió de zona", "heartbeatLost": "Conexión perdida", "antitheft": "Vehículo movido", "panicWord": "Palabra de pánico" },
-  "settings": { "language": "Idioma", "theme": "Tema", "notifications": "Notificaciones", "privacy": "Privacidad" }
+  "settings": {
+    "general": "General",
+    "language": "Idioma",
+    "theme": "Tema",
+    "notifications": { "local": "Notificaciones locales", "sound": "Sonido", "vibration": "Vibración" },
+    "safety": "Seguridad",
+    "deadmanMinutes": "Temporizador (min)",
+    "panicWord": "Palabra de pánico",
+    "privacy": "Privacidad",
+    "privacy.body": "Todo está cifrado de extremo a extremo."
+  },
+  "onboarding": {
+    "s1_title": "Privacidad total",
+    "s1_body": "Cada ubicación se cifra en el dispositivo.",
+    "s2_title": "IA local",
+    "s2_body": "Detecta rutas inusuales, caídas, movimiento sospechoso.",
+    "s3_title": "Conexión directa",
+    "s3_body": "Tiempo real entre tu teléfono y el de tu hijo.",
+    "next": "Siguiente",
+    "start": "Empezar"
+  }
 }
