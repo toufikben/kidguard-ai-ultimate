@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KidGuard AI Ultimate</string>
+    <string name="title_activity_main">KidGuard AI Ultimate</string>
+    <string name="package_name">com.kidguard.ai.ultimate</string>
+    <string name="custom_url_scheme">com.kidguard.ai.ultimate</string>
+</resources>
