@@ -129,7 +129,14 @@ alter publication supabase_realtime add table incidents;
 -- ═══════════════════════════════════════════════════════════
 
 create or replace function cleanup_old_signaling()
-returns void language sql as delete from signaling where created_at < now() - interval '1 hour';
-delete from heartbeats where created_at < now() - interval '7 days';
+returns void
+language sql
+security definer
+set search_path = public
+as $$
+  delete from signaling
+  where created_at < now() - interval '1 hour';
 
-;
+  delete from heartbeats
+  where created_at < now() - interval '7 days';
+$$;
