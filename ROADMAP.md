@@ -16,7 +16,8 @@
 | TypeScript | ناجح | `npx tsc --noEmit` |
 | Web production build | ناجح | `npm run build` |
 | Vite dev server | يعمل | HTTP 200 على المنفذ 5173، ويعيد التشغيل عند تغيير `.env.local` |
-| Android Java/Gradle compile | ناجح سابقاً | `:app:compileDebugJavaWithJavac` نجح بعد تجهيز JDK وAndroid SDK |
+| Android Java/Gradle compile | ناجح | `assembleDebug assembleRelease` نجح محلياً بعد إضافة packaging exclusions؛ release المحلي غير موقّع |
+| GitHub Actions workflow | مضاف | `.github/workflows/android-build.yml` يفحص الويب، يبني Debug، ويبني APK/AAB موقّعاً عند توفر الأسرار |
 
 ## ملاحظة اتصال API
 
@@ -28,9 +29,9 @@
 |---:|---|---|
 | 1 | حل 401 الخاص بـPostgREST | `GET /rest/v1/devices?select=id` يعيد HTTP 200 بالمفتاح العام الصحيح |
 | 2 | اختبار Supabase من التطبيق | تشغيل Auth/Realtime/Pairing من Vite مع المشروع الجديد فقط |
-| 3 | إضافة GitHub Actions | Workflow لفحص TypeScript، Web build، Gradle، وحفظ APK/AAB artifacts |
-| 4 | إعداد أسرار GitHub | `VITE_SUPABASE_URL` و`VITE_SUPABASE_ANON_KEY`، وعدم وضع أي secret في Git |
-| 5 | إعداد Android signing | Keystore إنتاجي خارج المستودع وGitHub Secrets للتوقيع |
+| 3 | إضافة GitHub Actions | مكتمل — workflow يفحص TypeScript/Web، يبني Android، ويرفع artifacts |
+| 4 | إعداد أسرار GitHub | جزئي — أسرار التوقيع أُضيفت حسب تأكيد المستخدم؛ يلزم إضافة Supabase secrets للـworkflow عند الحاجة |
+| 5 | إعداد Android signing | جزئي — إعداد Gradle جاهز؛ يلزم تشغيل workflow والتأكد من ظهور APK/AAB الموقّع |
 | 6 | بناء Debug تلقائي | تنزيل APK من GitHub Actions وتجربته على جهاز Android فعلي |
 | 7 | اختبار الوظائف الحساسة | GPS بالخلفية، إشعارات، SMS، SMTP، BLE، Foreground Service، Pairing، RLS وRealtime |
 | 8 | بناء Release | إنشاء AAB موقّع بعد نجاح الاختبار اليدوي |

@@ -16,9 +16,28 @@ android {
             ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    packaging {
+        resources {
+            excludes += ['/META-INF/NOTICE.md', '/META-INF/LICENSE.md', '/META-INF/NOTICE', '/META-INF/LICENSE']
+        }
+    }
+    signingConfigs {
+        release {
+            def keystorePath = System.getenv('KIDGUARD_KEYSTORE_PATH')
+            if (keystorePath) {
+                storeFile file(keystorePath)
+                storePassword System.getenv('STORE_PASSWORD')
+                keyAlias System.getenv('KEY_ALIAS')
+                keyPassword System.getenv('KEY_PASSWORD')
+            }
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
+            if (System.getenv('KIDGUARD_KEYSTORE_PATH')) {
+                signingConfig signingConfigs.release
+            }
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
