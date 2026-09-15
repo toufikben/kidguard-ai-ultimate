@@ -31,10 +31,10 @@
 | 2 | اختبار Supabase من التطبيق | تشغيل Auth/Realtime/Pairing من Vite مع المشروع الجديد فقط |
 | 3 | إضافة GitHub Actions | مكتمل — workflow يفحص TypeScript/Web، يبني Android، ويرفع artifacts |
 | 4 | إعداد أسرار GitHub | جزئي — أسرار التوقيع أُضيفت حسب تأكيد المستخدم؛ يلزم إضافة Supabase secrets للـworkflow عند الحاجة |
-| 5 | إعداد Android signing | جزئي — إعداد Gradle جاهز؛ يلزم تشغيل workflow والتأكد من ظهور APK/AAB الموقّع |
-| 6 | بناء Debug تلقائي | تنزيل APK من GitHub Actions وتجربته على جهاز Android فعلي |
+| 5 | إعداد Android signing | مكتمل — تم فك keystore والتحقق من alias/password داخل GitHub Actions |
+| 6 | بناء Debug تلقائي | مكتمل — Artifact `kidguard-debug-apk` متاح من التشغيل `34915487253` |
 | 7 | اختبار الوظائف الحساسة | GPS بالخلفية، إشعارات، SMS، SMTP، BLE، Foreground Service، Pairing، RLS وRealtime |
-| 8 | بناء Release | إنشاء AAB موقّع بعد نجاح الاختبار اليدوي |
+| 8 | بناء Release | مكتمل تقنياً — تم إنشاء ورفع APK وAAB موقّعين؛ ما زال الاختبار اليدوي قبل النشر |
 | 9 | Google Play | Internal Testing ثم Closed Testing بعد تجهيز Privacy Policy وData Safety |
 
 ## قواعد حماية المشاريع
