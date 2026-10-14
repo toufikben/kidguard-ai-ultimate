@@ -84,6 +84,11 @@
             android:exported="false"
             android:foregroundServiceType="location|dataSync" />
 
+        <!-- Google Play: Stalkerware & Monitoring Applications policy -->
+        <meta-data
+            android:name="isMonitoringTool"
+            android:value="child_monitoring" />
+
     </application>
 
     <queries>
